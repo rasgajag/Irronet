@@ -9,7 +9,7 @@
     "description": {
       "translate": "advancements.its_the_final_braincell.descr"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

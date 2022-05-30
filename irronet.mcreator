@@ -169,7 +169,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flintd_1",
-      "path": "~/Making Planks/Res"
+      "path": "~/Making Planks/PlankBlocks"
     },
     {
       "name": "Flintd2",
@@ -187,7 +187,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flintd_3",
-      "path": "~/Making Planks"
+      "path": "~/Making Planks/PlankBlocks"
     },
     {
       "name": "Flintgui",
@@ -696,6 +696,23 @@
       "locked_code": false,
       "registry_name": "barkaxeres",
       "path": "~/Tools"
+    },
+    {
+      "name": "Advancement",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advancement",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [],
@@ -711,8 +728,8 @@
       "item.irronet.sugar_string": "Sugar String",
       "item.irronet.bark_plank": "Bark Plank",
       "item.irronet.flintd_3": "Flint",
-      "item.irronet.flintd_2": "Flint",
       "advancements.what_have_i_gotten_in_to.descr": "Start the hardest mod i\u0027ve made",
+      "item.irronet.flintd_2": "Flint",
       "advancements.its_the_final_braincell.title": "It\u0027s The Final Braincell",
       "advancements.its_the_final_braincell.descr": "Wood when wet becomes smaller",
       "advancements.huh.descr": "Where is my log?",
