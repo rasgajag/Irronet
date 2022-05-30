@@ -1,14 +1,15 @@
 modLoader="javafml"
 loaderVersion="[40,)"
-license="Academic Free License v3.0"
+license="All Rights Reserved"
 
 [[mods]]
 modId="irronet"
 version="1.0.0"
 displayName="Irronet"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="Twitch.tv/rasgajag"
 displayURL="https://mcreator.net"
-authors="schwa, MCreator"
+logoFile="logo.png"
+authors="Rasgajag"
 
 [[dependencies.irronet]]
     modId="minecraft"
