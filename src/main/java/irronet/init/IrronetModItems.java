@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
@@ -41,8 +42,20 @@ public class IrronetModItems {
 	public static final RegistryObject<Item> FLINTD_1 = REGISTRY.register("flintd_1", () -> new Flintd1Item());
 	public static final RegistryObject<Item> FLINTD_2 = REGISTRY.register("flintd_2", () -> new Flintd2Item());
 	public static final RegistryObject<Item> FLINTD_3 = REGISTRY.register("flintd_3", () -> new Flintd3Item());
+	public static final RegistryObject<Item> BARK_STAIRS = block(IrronetModBlocks.BARK_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BARK_SLABS = block(IrronetModBlocks.BARK_SLABS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BARK_FENCE = block(IrronetModBlocks.BARK_FENCE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BARK_BUTTON = block(IrronetModBlocks.BARK_BUTTON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BARK_PRESSUREPLATE = block(IrronetModBlocks.BARK_PRESSUREPLATE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BARK_FENCE_GATE = block(IrronetModBlocks.BARK_FENCE_GATE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BARK_TRAPDOOR = block(IrronetModBlocks.BARK_TRAPDOOR, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BARK_DOOR = doubleBlock(IrronetModBlocks.BARK_DOOR, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+	}
+
+	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block, CreativeModeTab tab) {
+		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties().tab(tab)));
 	}
 }

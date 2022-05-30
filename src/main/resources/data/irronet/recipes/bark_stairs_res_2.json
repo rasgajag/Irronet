@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "irronet:bark_planks"
+    },
+    "4": {
+      "item": "irronet:bark_planks"
+    },
+    "5": {
+      "item": "irronet:bark_planks"
+    },
+    "6": {
+      "item": "irronet:bark_planks"
+    },
+    "7": {
+      "item": "irronet:bark_planks"
+    },
+    "8": {
+      "item": "irronet:bark_planks"
+    }
+  },
+  "result": {
+    "item": "irronet:bark_stairs",
+    "count": 4
+  }
+}

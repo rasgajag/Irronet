@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "irronet:block/bark_slabs"
+    },
+    "type=top": {
+      "model": "irronet:block/bark_slabs_top"
+    },
+    "type=double": {
+      "model": "irronet:block/bark_slabs_full"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "irronet:blocks/barkplanks",
+    "particle": "irronet:blocks/barkplanks"
+  }
+}

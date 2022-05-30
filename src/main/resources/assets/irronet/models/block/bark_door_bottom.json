@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "irronet:blocks/barkplanks",
+    "top": "irronet:blocks/barkplanks"
+  }
+}

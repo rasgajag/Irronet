@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "irronet:blocks/barkplanks",
+    "particle": "irronet:blocks/barkplanks"
+  }
+}

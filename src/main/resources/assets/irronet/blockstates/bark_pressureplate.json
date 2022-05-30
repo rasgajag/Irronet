@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "irronet:block/bark_pressureplate"
+    },
+    "powered=true": {
+      "model": "irronet:block/bark_pressureplate_down"
+    }
+  }
+}

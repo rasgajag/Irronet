@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "irronet:bark_planks"
+    }
+  ],
+  "result": {
+    "item": "irronet:bark_button",
+    "count": 1
+  }
+}

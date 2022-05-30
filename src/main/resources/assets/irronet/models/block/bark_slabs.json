@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "irronet:blocks/barkplanks",
+    "top": "irronet:blocks/barkplanks",
+    "side": "irronet:blocks/barkplanks"
+  }
+}
