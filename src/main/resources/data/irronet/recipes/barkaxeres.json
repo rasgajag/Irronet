@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:flint"
+    },
+    "1": {
+      "item": "irronet:sugar_string"
+    },
+    "3": {
+      "item": "irronet:bark_plank"
+    },
+    "5": {
+      "item": "irronet:bark_plank"
+    }
+  },
+  "result": {
+    "item": "irronet:bark_axe",
+    "count": 1
+  }
+}

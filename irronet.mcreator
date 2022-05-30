@@ -678,6 +678,24 @@
       "locked_code": false,
       "registry_name": "bark_door_res_2",
       "path": "~/Making Planks/PlankBlocks"
+    },
+    {
+      "name": "BarkAxe",
+      "type": "tool",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_axe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "Barkaxeres",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barkaxeres",
+      "path": "~/Tools"
     }
   ],
   "variable_elements": [],
@@ -701,6 +719,7 @@
       "item.irronet.flintd_1": "Flint",
       "item.irronet.bark": "Bark",
       "item.irronet.hardened_bark_bundle": "Hardened Bark Bundle",
+      "item.irronet.bark_axe": "Bark Axe",
       "advancements.what_have_i_gotten_in_to.title": "What Have I Gotten Into",
       "block.irronet.bark_pressureplate": "Bark Pressureplate",
       "block.irronet.bark_trapdoor": "Bark Trapdoor",
@@ -760,6 +779,10 @@
       },
       {
         "name": "Res",
+        "children": []
+      },
+      {
+        "name": "Tools",
         "children": []
       }
     ]

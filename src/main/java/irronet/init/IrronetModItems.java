@@ -25,6 +25,7 @@ import irronet.item.BarkPlankItem;
 import irronet.item.BarkPlankBundleItem;
 import irronet.item.BarkItem;
 import irronet.item.BarkBundleItem;
+import irronet.item.BarkAxeItem;
 
 import irronet.IrronetMod;
 
@@ -50,6 +51,7 @@ public class IrronetModItems {
 	public static final RegistryObject<Item> BARK_FENCE_GATE = block(IrronetModBlocks.BARK_FENCE_GATE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> BARK_TRAPDOOR = block(IrronetModBlocks.BARK_TRAPDOOR, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> BARK_DOOR = doubleBlock(IrronetModBlocks.BARK_DOOR, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BARK_AXE = REGISTRY.register("bark_axe", () -> new BarkAxeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
