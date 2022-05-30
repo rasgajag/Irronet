@@ -1,0 +1,465 @@
+{
+  "mod_elements": [
+    {
+      "name": "WhatHaveIGottenInTo",
+      "type": "achievement",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "what_have_i_gotten_in_to",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Bark",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark",
+      "path": "~/Making Planks"
+    },
+    {
+      "name": "SugarString",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugar_string",
+      "path": "~/Making Planks"
+    },
+    {
+      "name": "BarkBundle",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_bundle",
+      "path": "~/Making Planks"
+    },
+    {
+      "name": "WetBarkBundle",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wet_bark_bundle",
+      "path": "~/Making Planks"
+    },
+    {
+      "name": "BarkPlank",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_plank",
+      "path": "~/Making Planks"
+    },
+    {
+      "name": "BarkPlankBundle",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_plank_bundle",
+      "path": "~/Making Planks"
+    },
+    {
+      "name": "WetBarkPlankBundle",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wet_bark_plank_bundle",
+      "path": "~/Making Planks"
+    },
+    {
+      "name": "BarkPlanks",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_planks",
+      "path": "~/Making Planks"
+    },
+    {
+      "name": "SugarStringres",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugar_stringres",
+      "path": "~/Res"
+    },
+    {
+      "name": "BarkBundleRes",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_bundle_res",
+      "path": "~/Making Planks/Res"
+    },
+    {
+      "name": "WetBarkBundleRes",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wet_bark_bundle_res",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Making Planks/Res"
+    },
+    {
+      "name": "HardenedBarkBundle",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_bark_bundle",
+      "path": "~/Making Planks"
+    },
+    {
+      "name": "HardenedBarkBundleRes",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_bark_bundle_res",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Making Planks/Res"
+    },
+    {
+      "name": "Flintd1",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintd_1",
+      "path": "~/Making Planks"
+    },
+    {
+      "name": "Flintd2",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintd_2",
+      "path": "~/Making Planks"
+    },
+    {
+      "name": "Flintd3",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintd_3",
+      "path": "~/Making Planks"
+    },
+    {
+      "name": "Flintgui",
+      "type": "gui",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintgui",
+      "path": "~/Gui/Flintgui"
+    },
+    {
+      "name": "BarkPlankRes",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_plank_res",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui/Flintgui"
+    },
+    {
+      "name": "Ress",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ress",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui/Flintgui"
+    },
+    {
+      "name": "OpenGuiWithFlint",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_gui_with_flint",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gui/Flintgui"
+    },
+    {
+      "name": "StartMenu",
+      "type": "overlay",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start_menu",
+      "path": "~/Gui/Menu Overlays/Start Menu"
+    },
+    {
+      "name": "Inventory",
+      "type": "overlay",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inventory",
+      "path": "~/Gui/Menu Overlays/Inventory"
+    },
+    {
+      "name": "Inventoryhorse",
+      "type": "overlay",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inventoryhorse",
+      "path": "~/Gui/Menu Overlays/Inventory"
+    },
+    {
+      "name": "Huh",
+      "type": "achievement",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "huh",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Oaklog",
+      "type": "loottable",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oaklog",
+      "path": "~/Making Planks/Log"
+    },
+    {
+      "name": "DarkOakLog",
+      "type": "loottable",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_log",
+      "path": "~/Making Planks/Log"
+    },
+    {
+      "name": "JungleLog",
+      "type": "loottable",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_log",
+      "path": "~/Making Planks/Log"
+    },
+    {
+      "name": "BirchLog",
+      "type": "loottable",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_log",
+      "path": "~/Making Planks/Log"
+    },
+    {
+      "name": "SpruceLog",
+      "type": "loottable",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_log",
+      "path": "~/Making Planks/Log"
+    },
+    {
+      "name": "AcaciaLog",
+      "type": "loottable",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_log",
+      "path": "~/Making Planks/Log"
+    },
+    {
+      "name": "OakPlanks",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_planks",
+      "path": "~/Making Planks/Res"
+    },
+    {
+      "name": "DarkOakPlanks",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_planks",
+      "path": "~/Making Planks/Res"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.irronet.wet_bark_bundle": "Wet Bark Bundle",
+      "item.irronet.bark_plank_bundle": "Bark Plank Bundle",
+      "item.irronet.wet_bark_plank_bundle": "Wet Bark Plank Bundle",
+      "advancements.huh.descr": "Where is my log?",
+      "item.irronet.flintd_1": "Flint",
+      "item.irronet.bark": "Bark",
+      "item.irronet.hardened_bark_bundle": "Hardened Bark Bundle",
+      "advancements.what_have_i_gotten_in_to.title": "What Have I Gotten Into",
+      "item.irronet.sugar_string": "Sugar String",
+      "item.irronet.bark_plank": "Bark Plank",
+      "advancements.huh.title": "Huh?",
+      "item.irronet.flintd_3": "Flint",
+      "advancements.what_have_i_gotten_in_to.descr": "Start the hardest mod i\u0027ve made",
+      "block.irronet.bark_planks": "Bark Planks",
+      "item.irronet.flintd_2": "Flint",
+      "item.irronet.bark_bundle": "Bark Bundle"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "Making Planks",
+        "children": [
+          {
+            "name": "Res",
+            "children": []
+          },
+          {
+            "name": "Log",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Gui",
+        "children": [
+          {
+            "name": "Flintgui",
+            "children": []
+          },
+          {
+            "name": "Menu Overlays",
+            "children": [
+              {
+                "name": "Start Menu",
+                "children": []
+              },
+              {
+                "name": "Inventory",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Res",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "irronet",
+    "modName": "Irronet",
+    "version": "1.0.0",
+    "author": "schwa, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.irronet",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

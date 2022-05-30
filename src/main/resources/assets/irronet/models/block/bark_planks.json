@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "irronet:blocks/barkplanks",
+    "up": "irronet:blocks/barkplanks",
+    "north": "irronet:blocks/barkplanks",
+    "east": "irronet:blocks/barkplanks",
+    "south": "irronet:blocks/barkplanks",
+    "west": "irronet:blocks/barkplanks",
+    "particle": "irronet:blocks/barkplanks"
+  }
+}

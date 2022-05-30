@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "irronet:sugar_string"
+    },
+    {
+      "item": "irronet:bark"
+    },
+    {
+      "item": "irronet:bark"
+    },
+    {
+      "item": "irronet:bark"
+    }
+  ],
+  "result": {
+    "item": "irronet:bark_bundle",
+    "count": 1
+  }
+}

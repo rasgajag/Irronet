@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "irronet:bark_planks"
+    },
+    "1": {
+      "item": "minecraft:brown_dye"
+    }
+  },
+  "result": {
+    "item": "minecraft:dark_oak_planks",
+    "count": 1
+  }
+}
