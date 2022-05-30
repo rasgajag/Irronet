@@ -169,7 +169,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flintd_1",
-      "path": "~/Making Planks"
+      "path": "~/Making Planks/Res"
     },
     {
       "name": "Flintd2",
@@ -178,7 +178,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flintd_2",
-      "path": "~/Making Planks"
+      "path": "~/Making Planks/Res"
     },
     {
       "name": "Flintd3",
@@ -372,6 +372,51 @@
       "locked_code": false,
       "registry_name": "dark_oak_planks",
       "path": "~/Making Planks/Res"
+    },
+    {
+      "name": "SprucePlanks",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_planks",
+      "path": "~/Making Planks/Res"
+    },
+    {
+      "name": "BirchPlanks",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_planks",
+      "path": "~/Making Planks/Res"
+    },
+    {
+      "name": "JunglePlanks",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_planks",
+      "path": "~/Making Planks/Res"
+    },
+    {
+      "name": "AcaciaPlanks",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_planks",
+      "path": "~/Making Planks/Res"
+    },
+    {
+      "name": "ItsTheFinalBraincell",
+      "type": "achievement",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "its_the_final_braincell",
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [],
@@ -379,6 +424,7 @@
   "language_map": {
     "en_us": {
       "item.irronet.wet_bark_bundle": "Wet Bark Bundle",
+      "advancements.its_the_final_braincell.descr": "Wood when wet becomes smaller",
       "item.irronet.bark_plank_bundle": "Bark Plank Bundle",
       "item.irronet.wet_bark_plank_bundle": "Wet Bark Plank Bundle",
       "advancements.huh.descr": "Where is my log?",
@@ -393,7 +439,8 @@
       "advancements.what_have_i_gotten_in_to.descr": "Start the hardest mod i\u0027ve made",
       "block.irronet.bark_planks": "Bark Planks",
       "item.irronet.flintd_2": "Flint",
-      "item.irronet.bark_bundle": "Bark Bundle"
+      "item.irronet.bark_bundle": "Bark Bundle",
+      "advancements.its_the_final_braincell.title": "It\u0027s The Final Braincell"
     }
   },
   "foldersRoot": {

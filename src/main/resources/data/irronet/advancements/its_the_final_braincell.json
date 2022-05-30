@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "irronet:wet_bark_bundle"
+    },
+    "title": {
+      "translate": "advancements.its_the_final_braincell.title"
+    },
+    "description": {
+      "translate": "advancements.its_the_final_braincell.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "its_the_final_braincell": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "irronet:wet_bark_bundle"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "irronet:huh"
+}

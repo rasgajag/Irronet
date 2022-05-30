@@ -5,11 +5,11 @@
       "item": "irronet:bark_planks"
     },
     {
-      "item": "minecraft:brown_dye"
+      "item": "minecraft:white_dye"
     }
   ],
   "result": {
-    "item": "minecraft:dark_oak_planks",
+    "item": "minecraft:birch_planks",
     "count": 1
   }
 }
